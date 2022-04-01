@@ -21,6 +21,9 @@ switch (i)
     case "beef ":
         Console.WriteLine ("It cost you NT 400.");
         break;
+    case "cheese cake":
+        Console.WriteLine ("It cost you NT 150.");
+        break;
     default:
         Console.WriteLine ("Sorry, we do not sell " + food + ".");
         break;
