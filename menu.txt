@@ -1,0 +1,24 @@
+1.3group_menu
+
+Random random=new Random();
+int i=random.Next(0,100);
+Console.WriteLine(i);
+
+Console.WriteLine("We have cigarette,liquor and arijuana. Which do you like?");
+food= Console.ReadLine();
+
+switch (i) 
+{
+    case "cigarette":
+        Console.WriteLine ("It cost you NT 200.");
+        break;
+    case "liquor":
+        Console.WriteLine ("It cost you NT 380.");
+        break;
+    case "marijuana":
+        Console.WriteLine ("It cost you NT 600.");
+        break;
+    default:
+        Console.WriteLine ("Sorry, we do not sell " + food + ".");
+        break;
+}
