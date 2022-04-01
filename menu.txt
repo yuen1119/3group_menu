@@ -18,6 +18,9 @@ switch (i)
     case "marijuana":
         Console.WriteLine ("It cost you NT 600.");
         break;
+    case "beef ":
+        Console.WriteLine ("It cost you NT 400.");
+        break;
     default:
         Console.WriteLine ("Sorry, we do not sell " + food + ".");
         break;
